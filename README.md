@@ -18,3 +18,5 @@ The different that were used to develop this program include:
   2. CSS.
   3. JavaScript.
   4. jQuery.
+
+### Project's BDD
