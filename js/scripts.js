@@ -15,7 +15,7 @@ $(document).ready(function(){
     var final = addition(q1,q2,q3,q4);
     var percent = (final/60)*100;
      $("#results").text("You scored " + percent + "%");
-    //alert("You scored " + final + "%");
+
     if (percent>80 && percent<=100) {
       $("#grading").text("Excellent Performance");
     } else if (percent >=50 && percent <=80) {
@@ -23,5 +23,13 @@ $(document).ready(function(){
     } else {
       $("#grading").text("POOR! Retake Test");
     }
+
+    });
+    $("#clear").show();
+    $("#clear").click(function(){
+    $(".outputField").empty();
+
   });
+
+
 });
