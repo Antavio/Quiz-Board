@@ -22,10 +22,11 @@ $(document).ready(function(){
       $("#grading").text("Fair Result");
     } else {
       $("#grading").text("POOR! Retake Test");
+      $("#clear").show();
     }
 
     });
-    $("#clear").show();
+
     $("#clear").click(function(){
     $(".outputField").empty();
 
