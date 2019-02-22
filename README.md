@@ -14,7 +14,7 @@ Use the following commands to use this project.
 
 ### Technologies used
 The different that were used to develop this program include:
-    1.  HTML
-    2. CSS
-    3. JavaScript
-    4. jQuery
+  1.  HTML.
+  2. CSS.
+  3. JavaScript.
+  4. jQuery.
