@@ -6,3 +6,16 @@ h2 {
 .header{
   font-family: 'Sue Ellen Francisco', cursive;
   font-size: 30px;
+}
+.question-header {
+  background-color: #2793DA;
+  border: 1px solid #2793DA;
+}
+.multi-choices{
+  display: none;
+}
+.outputField{
+  font-family: 'Love Ya Like A Sister', cursive;
+  text-align: center;
+  font-size: 30px;
+}
