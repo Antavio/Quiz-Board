@@ -11,10 +11,120 @@
   crossorigin="anonymous"></script>
   <script src="js/scripts.js">
   </script>
+  <link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Sue+Ellen+Francisco" rel="stylesheet">
 </head>
 <body>
   <div class="container">
-    
+    <form id="formid">
+      <div class="jumbotron">
+        <h2>Javascript Quiz Board</h2>
+        <div class="header">
+          <p>A multiple choice Javascript Quiz aimed at evaluating your mastery of concepts taught in Class</p>
+          <p><strong>*Answer all Questions before submitting*</strong></p>
+          <p><strong>**Click on the Questions to display the multiple choices**</strong></p>
+        </div>
+      </div>
+      <div class="question-header">
+        <p>1. Which tag is used to insert Javascript into an HTML page?</p>
+      </div>
+      <div class="multi-choices">
+        <div class="radio">
+          <label>
+            <input type="radio" name="question-one" value= "0">
+            js
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question-one" value="0">
+            javascript
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question-one" value="10">
+            script
+          </label>
+        </div>
+      </div>
+      <div class="question-header">
+        <p>2. What is the correct syntax for referring to an external script called example.js?</p>
+      </div>
+      <div class="multi-choices">
+        <div class="radio">
+          <label>
+            <input type="radio" name="question-two" value= "0">
+            script name="example.js"
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question-two" value="0" >
+            script type = "example.js"
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question-two" value="20">
+            script source = "example.js"
+          </label>
+        </div>
+      </div>
+      <div class="question-header">
+        <p>3. Which of the following is the correct syntax to display “Moringa School” in an alert box using JavaScript?</p>
+      </div>
+      <div class="multi-choices">
+        <div class="radio">
+          <label>
+            <input type="radio" name="question-three" value= "20">
+             alert(“Moringa School”)
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question-three" value="0" >
+            alertbox(“Moringa School”);
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question-three" value="0">
+            msg(“Moringa School”);
+          </label>
+        </div>
+      </div>
+      <div class="question-header">
+        <p>4. What is the syntax for creating a function in JavaScript named as doSomething?</p>
+      </div>
+      <div class="multi-choices">
+        <div class="radio">
+          <label>
+            <input type="radio" name="question-four" value= "0">
+              function = doSomething()
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question-four" value="10" >
+            function doSomething()
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question-four" value="0">
+            function : doSomething()
+          </label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <button type="submit" id="details" class="btn btn-outline-success">Submit</button>
+        </div>
+      </div>
+    </form>
+    <div id="results" class="outputField"></div>
+    <div id="grading" class="outputField"></div>
   </div>
 </body>
 </html>
