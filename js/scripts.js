@@ -15,7 +15,7 @@ $(document).ready(function(){
 
     var final = addition(q1,q2,q3,q4,q5);
     var percent = (final/100)*100;
-     $("#results").text("You scored " + percent + "%");
+    $("#results").text("You scored " + percent + "%");
 
     if (percent>80 && percent<=100) {
       $("#grading").text("Excellent Performance");
@@ -26,7 +26,7 @@ $(document).ready(function(){
       $("#clear").show();
     }
 
-    });
+  });
 
     $("#clear").click(function(){
     $(".outputField").empty();
