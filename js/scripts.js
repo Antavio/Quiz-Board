@@ -1,5 +1,5 @@
-function addition(q1,q2,q3,q4){
-  return q1+q2+q3+q4;
+function addition(q1,q2,q3,q4,q5){
+  return q1+q2+q3+q4+q5;
 }
 $(document).ready(function(){
   $(".question-header").click(function(){
@@ -11,9 +11,10 @@ $(document).ready(function(){
     var q2 = parseInt($("input:radio[name=question-two]:checked").val());
     var q3 = parseInt($("input:radio[name=question-three]:checked").val());
     var q4 = parseInt($("input:radio[name=question-four]:checked").val());
+    var q5 = parseInt($("input:radio[name=question-five]:checked").val());
 
-    var final = addition(q1,q2,q3,q4);
-    var percent = (final/60)*100;
+    var final = addition(q1,q2,q3,q4,q5);
+    var percent = (final/100)*100;
      $("#results").text("You scored " + percent + "%");
 
     if (percent>80 && percent<=100) {
@@ -29,7 +30,7 @@ $(document).ready(function(){
 
     $("#clear").click(function(){
     $(".outputField").empty();
-
+    $("#clear").hide();
   });
 
 

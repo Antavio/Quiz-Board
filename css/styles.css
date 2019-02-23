@@ -9,7 +9,10 @@ h2 {
 }
 .question-header {
   background-color: #C7E1F3;
-  border: 1px solid #2793DA;
+  border: 1px dotted #2793DA;
+  font-family: 'Sue Ellen Francisco', cursive;
+  font-size: 27px;
+  border-radius: 10px;
 }
 .multi-choices{
   display: none;
@@ -24,4 +27,7 @@ h2 {
 }
 .buttons{
   margin-top: 20px;
+}
+body{
+  background-image: url("../images/leaves-pattern.png");
 }
