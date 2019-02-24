@@ -28,7 +28,7 @@ The different that were used to develop this program include:
 
 
 ### Link to live site
-Here is a link to the live website  
+Here is a link to the live website https://antavio.github.io/Quiz-Board/ 
 
 ### Contact Me
 If you have any suggestions, additions or modifications on this project you can reach me via my email: njuguna13@gmail.com
