@@ -15,7 +15,6 @@ $(document).ready(function(){
 
     var final = addition(q1,q2,q3,q4,q5);
     var percent = (final/100)*100;
-    $(".jumbotron").hide();
     $("#results").text("You scored " + percent + "%");
 
     if (percent>80 && percent<=100) {
@@ -26,13 +25,14 @@ $(document).ready(function(){
       $("#grading").text("POOR! Retake Test");
       $("#clear").show();
     }
-    window.scrollTo(0,500);
+    window.scrollTo(0,1000);
 
   });
 
     $("#clear").click(function(){
     $(".outputField").empty();
     $("#clear").hide();
+    window.scrollTo(0,0);
   });
 
 
