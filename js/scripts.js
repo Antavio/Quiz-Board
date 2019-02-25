@@ -12,9 +12,10 @@ $(document).ready(function(){
     var q3 = parseInt($("input:radio[name=question-three]:checked").val());
     var q4 = parseInt($("input:radio[name=question-four]:checked").val());
     var q5 = parseInt($("input:radio[name=question-five]:checked").val());
-    
+
     var final = addition(q1,q2,q3,q4,q5);
     var percent = (final/100)*100;
+    $(".jumbotron").hide();
     $("#results").text("You scored " + percent + "%");
 
     if (percent>80 && percent<=100) {
@@ -25,6 +26,7 @@ $(document).ready(function(){
       $("#grading").text("POOR! Retake Test");
       $("#clear").show();
     }
+    window.scrollTo(0,500);
 
   });
 
