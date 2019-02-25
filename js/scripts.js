@@ -25,7 +25,7 @@ $(document).ready(function(){
       $("#grading").text("POOR! Retake Test");
       $("#clear").show();
     }
-    window.scrollTo(0,1000);
+    window.scrollTo(0,800);
 
   });
 
